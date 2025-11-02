@@ -1,0 +1,74 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "image": "https://images.pexels.com/photos/5699662/pexels-photo-5699662.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 22,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Medium",
+    "description": "Beautiful white flowers and excellent indoor air quality improvement.",
+    "image": "https://images.pexels.com/photos/4503264/pexels-photo-4503264.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "GreenThumb Co."
+  },
+  {
+    "plantId": 3,
+    "plantName": "Aloe Vera",
+    "category": "Succulent",
+    "price": 15,
+    "rating": 4.9,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "Medicinal succulent plant, easy to maintain indoors.",
+    "image": "https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "Nature’s Touch"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Decorative",
+    "price": 30,
+    "rating": 4.7,
+    "availableStock": 5,
+    "careLevel": "Hard",
+    "description": "Large leafy plant perfect for living room decoration.",
+    "image": "https://images.pexels.com/photos/5699663/pexels-photo-5699663.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 12,
+    "rating": 4.5,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "Excellent for indoor air purification and easy care.",
+    "image": "https://images.pexels.com/photos/5699664/pexels-photo-5699664.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "GreenThumb Co."
+  },
+  {
+    "plantId": 6,
+    "plantName": "Boston Fern",
+    "category": "Decorative",
+    "price": 25,
+    "rating": 4.6,
+    "availableStock": 7,
+    "careLevel": "Medium",
+    "description": "Beautiful fern plant that thrives in indirect light.",
+    "image": "https://images.pexels.com/photos/5699665/pexels-photo-5699665.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "Nature’s Touch"
+  }
+]

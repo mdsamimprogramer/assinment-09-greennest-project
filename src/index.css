@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+    background: linear-gradient(to right, rgb(255, 251, 244), rgb(226, 240, 226));
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
