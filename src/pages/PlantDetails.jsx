@@ -28,10 +28,10 @@ const PlantDetails = () => {
     if (!plant) return <p className="text-center items-center max-h-screen"><FourSquare color="#32cd32" size="medium" text="" textColor="" /></p>;
 
     return (
-        <div className="p-4 max-w-2xl rounded-xl mx-auto bg-green-100 mt-6">
+        <div className="p-4 max-w-4xl rounded-xl mx-auto bg-green-100 mt-6">
             <img src={plant.image} alt={plant.plantName} className="w-full h-48 object-cover rounded mb-3" />
             <h2 className="text-2xl font-bold">{plant.plantName}</h2>
-            <p className="font-semibold"><span>{plant.description}</span></p>
+            <p className=""><span>{plant.description}</span></p>
             <p className="font-bold mt-2">Price : $ {plant.price}</p>
             <p className="font-semibold">Rating : <span>{plant.rating}</span></p>
             <p className="font-semibold">Stock : {plant.availableStock}</p>

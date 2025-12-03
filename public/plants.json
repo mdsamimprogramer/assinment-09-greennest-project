@@ -7,7 +7,7 @@
     "rating": 4.8,
     "availableStock": 10,
     "careLevel": "Easy",
-    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "description": "A hardy and resilient indoor plant known for its excellent air-purifying qualities. Thrives in low light, requires minimal watering, and adds a touch of modern elegance to any room.",
     "image": "https://images.pexels.com/photos/5699662/pexels-photo-5699662.jpeg?auto=compress&cs=tinysrgb&w=600",
     "providerName": "UrbanGreen Studio"
   },
@@ -19,7 +19,7 @@
     "rating": 4.6,
     "availableStock": 8,
     "careLevel": "Medium",
-    "description": "Beautiful white flowers and excellent indoor air quality improvement.",
+    "description": "An elegant plant with stunning white blooms that brighten any indoor space. Known for improving air quality and creating a calming ambiance, ideal for living rooms and offices.",
     "image": "https://images.pexels.com/photos/4503264/pexels-photo-4503264.jpeg?auto=compress&cs=tinysrgb&w=600",
     "providerName": "GreenThumb Co."
   },
@@ -31,7 +31,7 @@
     "rating": 4.9,
     "availableStock": 12,
     "careLevel": "Easy",
-    "description": "Medicinal succulent plant, easy to maintain indoors.",
+    "description": "A versatile medicinal succulent, perfect for indoor spaces. Known for its healing properties, easy to maintain, and thrives with minimal care, making it ideal for beginners.",
     "image": "https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&w=600",
     "providerName": "Nature’s Touch"
   },
@@ -43,7 +43,7 @@
     "rating": 4.7,
     "availableStock": 5,
     "careLevel": "Hard",
-    "description": "Large leafy plant perfect for living room decoration.",
+    "description": "A striking decorative plant featuring large, glossy leaves that make a bold statement in any room. Perfect for living rooms or office spaces, it requires bright, indirect light and careful watering.",
     "image": "https://images.pexels.com/photos/5699663/pexels-photo-5699663.jpeg?auto=compress&cs=tinysrgb&w=600",
     "providerName": "UrbanGreen Studio"
   },
@@ -55,7 +55,7 @@
     "rating": 4.5,
     "availableStock": 20,
     "careLevel": "Easy",
-    "description": "Excellent for indoor air purification and easy care.",
+    "description": "A charming and resilient plant that excels at purifying indoor air. Thrives in moderate light, requires minimal maintenance, and produces lovely offshoots that can be propagated easily.",
     "image": "https://images.pexels.com/photos/5699664/pexels-photo-5699664.jpeg?auto=compress&cs=tinysrgb&w=600",
     "providerName": "GreenThumb Co."
   },
@@ -67,8 +67,68 @@
     "rating": 4.6,
     "availableStock": 7,
     "careLevel": "Medium",
-    "description": "Beautiful fern plant that thrives in indirect light.",
+    "description": "A lush, vibrant fern that adds natural beauty to indoor spaces. Prefers indirect light and high humidity, making it perfect for bathrooms, kitchens, or shaded living areas.",
     "image": "https://images.pexels.com/photos/5699665/pexels-photo-5699665.jpeg?auto=compress&cs=tinysrgb&w=600",
     "providerName": "Nature’s Touch"
+  },
+  {
+    "plantId": 7,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 30,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "Snake Plant is one of the best air-purifying indoor plants, highly resilient and perfect for beginners.",
+    "image": "https://images.pexels.com/photos/5699671/pexels-photo-5699671.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "GreenLeaf Growers"
+  },
+  {
+    "plantId": 8,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 35,
+    "rating": 4.7,
+    "availableStock": 8,
+    "careLevel": "Medium",
+    "description": "A beautiful indoor flowering plant known for improving air quality and adding elegance to any space.",
+    "image": "https://images.pexels.com/photos/4503260/pexels-photo-4503260.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "FreshBloom Nursery"
+  },
+  {
+    "plantId": 9,
+    "plantName": "Areca Palm",
+    "category": "Indoor Palm",
+    "price": 40,
+    "rating": 4.9,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "A stunning indoor palm that brings a tropical feel to your home while naturally humidifying the air.",
+    "image": "https://images.pexels.com/photos/5699683/pexels-photo-5699683.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "PalmHouse BD"
+  },
+  {
+    "plantId": 10,
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 28,
+    "rating": 4.8,
+    "availableStock": 9,
+    "careLevel": "Easy",
+    "description": "A hardy indoor plant perfect for low-light spaces. Requires minimal care and is ideal for offices or bedrooms.",
+    "image": "https://images.pexels.com/photos/4503261/pexels-photo-4503261.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "Urban Green BD"
+  },
+  {
+    "plantId": 11,
+    "plantName": "Aloe Vera",
+    "category": "Medicinal",
+    "price": 20,
+    "rating": 4.7,
+    "availableStock": 15,
+    "careLevel": "Easy",
+    "description": "A popular indoor succulent known for its medicinal benefits. Requires bright light and very little water.",
+    "image": "https://images.pexels.com/photos/2129421/pexels-photo-2129421.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "providerName": "Nature Care"
   }
 ]

@@ -1,11 +1,11 @@
 import { Link } from "react-router";
 
 const PlantCard = ({ plant }) => (
-    <div className="bg-white border border-green-200 rounded-2xl p-2.5 shadow-md hover:shadow-xl hover:scale-105 transition duration-300 flex flex-col justify-between">
+    <div className="bg-white border border-green-200 rounded-xl p-2 shadow-md hover:shadow-xl hover:scale-105 transition duration-300 flex flex-col justify-between">
 
         {/* Plant Image */}
-        <div className="overflow-hidden rounded-md md:rounded-xl mb-3">
-            <img src={plant.image} alt={plant.plantName} className="w-full h-46 md:h-56 object-cover hover:scale-105 transition duration-500" />
+        <div className="overflow-hidden mb-3">
+            <img src={plant.image} alt={plant.plantName} className="w-full rounded-md h-46 md:h-56 object-cover hover:scale-105 transition duration-500" />
         </div>
 
         {/* Plant Info */}
@@ -23,7 +23,7 @@ const PlantCard = ({ plant }) => (
 
         {/* Button */}
         <Link to={`/plants/${plant.plantId}`}
-            className="bg-green-700 hover:bg-green-800 text-white py-2 px-4 rounded-lg text-center font-medium transition">
+            className="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded-full text-center font-medium transition">
             View Details
         </Link>
     </div>

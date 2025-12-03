@@ -1,10 +1,10 @@
-import { FaFacebook, FaInstagram, FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaPinterest } from "react-icons/fa";
 import { MdAddIcCall, MdMarkEmailUnread } from "react-icons/md";
 import { PiAddressBookTabsFill } from "react-icons/pi";
 
 const Footer = () => {
     return (
-        <footer className="bg-green-700 text-white py-6 mt-12 rounded-t-3xl shadow-xl bg-gradient-to-r from-green-600 via-emerald-600 to-fuchsia-500">
+        <footer className=" text-white pt-6 mt-12 bg-gray-700">
             <div className="container mx-auto px-6 md:px-12 lg:px-20 grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
 
                 {/* About Section */}
@@ -26,7 +26,7 @@ const Footer = () => {
                         </li>
                         <li className="flex items-center justify-center md:justify-start gap-2">
                             <MdAddIcCall className="text-lg text-orange-300" />
-                            <a href="tel:+8801700000000" className="hover:underline">+880 1700-000000</a>
+                            <a href="tel:+8801700000000" className="hover:underline">+880 1743282144</a>
                         </li>
                         <li className="flex items-center justify-center md:justify-start gap-2">
                             <PiAddressBookTabsFill className="text-lg text-emerald-300" />
@@ -49,12 +49,13 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex justify-center gap-6 md:gap-8 my-5 md:my-7">
                 <a href="#" className="text-pink-400 hover:text-pink-500 hover:scale-110 transition-transform duration-300"> <FaInstagram size={28} /> </a>
-                <a href="#" className="text-blue-400 hover:text-blue-500 hover:scale-110 transition-transform duration-300"> <FaFacebook size={28} /> </a>
-                <a href="#" className="text-fuchsia-400 hover:text-fuchsia-500 hover:scale-110 transition-transform duration-300"> <FaPinterest size={28} /> </a>
+                <a href="https://www.facebook.com/md.samim.khan.22906" className="text-blue-400 hover:text-blue-500 hover:scale-110 transition-transform duration-300"> <FaFacebook size={28} /> </a>
+                <a href="https://www.linkedin.com/in/samim01/" className="text-fuchsia-400 hover:text-fuchsia-500 hover:scale-110 transition-transform duration-300"> <FaLinkedin size={28} /> </a>
+                <a href="https://github.com/mdsamimprogramer" className="hover:scale-110 transition-transform duration-300"> <FaGithub size={28} /> </a>
             </div>
 
             <div className="border-t border-gray-400 my-2 mx-auto w-full shadow-md"></div>
-            <div className="text-center text-xs md:text-sm text-gray-200 mt-4">
+            <div className="text-center text-xs md:text-sm text-gray-200 pb-2.5 mt-4">
                 <p>© {new Date().getFullYear()} <span className="font-semibold text-white">GreenNest</span>. All rights reserved.</p>
             </div>
         </footer>
